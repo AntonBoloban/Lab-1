@@ -18,6 +18,7 @@ import static com.sun.xml.internal.ws.spi.db.BindingContextFactory.LOGGER;
 public class StyleDAO implements IDAO<Style> {
 
 
+
     public static MongoCollection<Document> logsCollection;
 
     public static MongoCollection<Document> getCollection(){

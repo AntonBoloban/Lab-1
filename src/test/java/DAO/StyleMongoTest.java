@@ -30,6 +30,7 @@ public class StyleMongoTest {
         styles.forEach(System.out::println);
     }
 
+
     @Test
     public void findById() {
         List<Style> styles = styleMongo.findById(5);

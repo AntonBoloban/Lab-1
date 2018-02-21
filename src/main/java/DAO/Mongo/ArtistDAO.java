@@ -91,7 +91,7 @@ public class ArtistDAO implements IDAO<Artist> {
             LOGGER.log(Level.INFO,"Method delete() was executed successfully!");
             return true;
         }
-        LOGGER.log(Level.WARNING,"Clip with this id not found!");
+        LOGGER.log(Level.WARNING,"Artist with this id not found!");
         return false;
     }
 }

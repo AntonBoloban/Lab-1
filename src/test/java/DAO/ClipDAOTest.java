@@ -25,6 +25,7 @@ public class ClipDAOTest {
         assertTrue(conn != null);
     }
 
+
     @Test
     public void testInsert(){
         Clip clip = new Clip(1,"Barking","fdfdfs",1,1);

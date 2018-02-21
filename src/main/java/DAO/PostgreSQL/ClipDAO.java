@@ -13,6 +13,7 @@ import static com.sun.xml.internal.ws.spi.db.BindingContextFactory.LOGGER;
 
 public class ClipDAO implements IDAO<Clip> {
 
+
     @Override
     public List<Clip> findAll() {
         List<Clip> clips = new ArrayList<Clip>();

@@ -16,6 +16,7 @@ public class Style {
         this.description = description;
     }
 
+
     public int getId() {
         return id;
     }

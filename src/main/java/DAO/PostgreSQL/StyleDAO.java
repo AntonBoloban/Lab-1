@@ -22,6 +22,7 @@ public class StyleDAO implements IDAO<Style> {
             PreparedStatement st = conn.prepareStatement(
                     "Select * from styles ");
 
+
             //Execute query
             ResultSet rs = st.executeQuery();
 

@@ -11,6 +11,7 @@ import static com.sun.xml.internal.ws.spi.db.BindingContextFactory.LOGGER;
 
 public class PostgreSQLConn {
 
+
     public static Connection getConnection() throws Exception {
         System.out.println("-------- PostgreSQL "
                 + "JDBC Connection Testing ------------");

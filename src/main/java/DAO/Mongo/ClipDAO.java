@@ -18,6 +18,7 @@ import static com.sun.xml.internal.ws.spi.db.BindingContextFactory.LOGGER;
 public class ClipDAO implements IDAO<Clip> {
 
 
+
     public static MongoCollection<Document> logsCollection = getCollection("clips");
 
     @Override

@@ -18,6 +18,7 @@ public class ArtistDAOTest {
     }
 
 
+
     @Test
     public void testInsert(){
         Artist artist = new Artist(1,"testName1","1234567890",0);

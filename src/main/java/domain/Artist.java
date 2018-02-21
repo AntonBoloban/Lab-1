@@ -20,6 +20,7 @@ public class Artist
         this.country_code = country_code;
     }
 
+
     public int getId() {
         return id;
     }

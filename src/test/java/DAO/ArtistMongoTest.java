@@ -21,6 +21,7 @@ public class ArtistMongoTest {
         assertTrue(artistMongo.insert(artist) == true);
     }
 
+
     @Test
     public void findAll() {
         List<Artist> artists = artistMongo.findAll();
